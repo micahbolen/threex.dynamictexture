@@ -21,7 +21,7 @@
 	// update the text
 	dynamicTexture.clear('cyan')
 	// dynamictexture.drawText('Hello', undefined, 256, 'red')
-	dynamicTexture.drawTextCooked('Hello World, it\'s Micah.', {
+	dynamicTexture.drawTextCooked('M ♡ K', {
 		lineHeight	: 0.2,
 	})
 	
@@ -66,6 +66,7 @@
 	requestAnimationFrame(function animate(nowMsec){
 		// keep looping
 		requestAnimationFrame( animate );
+geometry.rotation.x += 0.01;
 		// measure time
 		lastTimeMsec	= lastTimeMsec || nowMsec-1000/60
 		var deltaMsec	= Math.min(200, nowMsec - lastTimeMsec)
