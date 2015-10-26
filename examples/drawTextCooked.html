@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <script src='vendor/three.js/build/three.js'></script>
 <script src='../threex.dynamictexture.js'></script>
-<body style='margin: 0px; background-color: #bbbbbb; overflow: hidden;'><script>
+<body style='margin: 0px; background-color: #363636; overflow: hidden;'><script>
 	var renderer	= new THREE.WebGLRenderer();
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	document.body.appendChild( renderer.domElement );
@@ -21,7 +21,7 @@
 	// update the text
 	dynamicTexture.clear('cyan')
 	// dynamictexture.drawText('Hello', undefined, 256, 'red')
-	dynamicTexture.drawTextCooked('•• Micah •• •• L♡ves •• •• Keila ••', {
+	dynamicTexture.drawTextCooked('  Micah    L♡ves    Keila  ', {
 		lineHeight	: 0.2,
 	})
 	
